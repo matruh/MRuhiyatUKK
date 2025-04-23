@@ -1,0 +1,60 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #007bff;
+}
+
+.content {
+    margin-left: 260px;
+}
+
+.card-table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding:1pt ;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: double;
+}
