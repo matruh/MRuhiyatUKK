@@ -81,7 +81,7 @@
                             </td>
                             <td>
                                 <a href="/editbuku/{{ $databuku->id }}" class="btn btn-info btn-sm">Edit</a>
-                                {{-- <a href="/hapusbuku/{{ $databuku->id }}" class="btn btn-danger btn-sm">Hapus</a> --}}
+                                <a href="/hapusbuku/{{ $databuku->id }}" class="btn btn-danger btn-sm">Hapus</a>
                                     <button class="btn btn-danger btn-sm delete" data-id="{{ $databuku->id }}"
                                         data-judul="{{ $databuku->judul }}">Hapus</button>
                             </td>
